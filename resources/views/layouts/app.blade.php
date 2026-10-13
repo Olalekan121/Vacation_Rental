@@ -10,6 +10,9 @@
 
     <title>{{ config('app.name', 'Laravel') }}</title>
 
+     <!-- Scripts -->
+    @vite(['resources/sass/app.scss', 'resources/js/app.js'])
+
     <link href="https://fonts.googleapis.com/css?family=Poppins:200,300,400,500,600,700,800,900&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Playfair+Display:400,400i,500,500i,600,600i,700,700i&display=swap" rel="stylesheet">
 
@@ -31,8 +34,7 @@
     <link rel="dns-prefetch" href="//fonts.bunny.net">
     <link href="https://fonts.bunny.net/css?family=Nunito" rel="stylesheet">
 
-    <!-- Scripts -->
-    @vite(['resources/sass/app.scss', 'resources/js/app.js'])
+   
 </head>
 
 <body>
